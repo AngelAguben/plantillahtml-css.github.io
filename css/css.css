@@ -1,0 +1,138 @@
+@font-face {
+    font-family: MiFuente;
+    src: url(fuente/MiFuente.ttf);
+}
+
+@font-face {
+    font-family: MiFuente2;
+    src: url(fuente/Simpel-Medium.otf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: inherit;
+    font-family: MiFuente2;
+}
+
+html {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: MiFuente2;
+}
+
+body {
+    background-color: #B7C4CF;
+    padding: 3%;
+}
+
+h1 {
+    font-family: MiFuente;
+}
+
+#contenedor {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 700px;
+}
+
+.fondoCab {
+    background-color: #D7C0AE;
+}
+
+#cabecera {
+    text-align: center;
+    padding: 3%;
+    font-family: MiFuente;
+    text-shadow: #B7C4CF 0.1em 0.1em 0.2em;
+}
+
+#contenido {
+    padding: 3%;
+    background-color: #EEE3CB;
+}
+
+#contenido p {
+    color: rgb(84, 84, 84);
+}
+
+h3 {
+    margin-bottom: 2%;
+}
+
+ul {
+    width: 70%;
+    margin: 0 auto;
+}
+
+li {
+    padding: 3%;
+    text-align: center;
+
+}
+
+a {
+    background-color: #B7C4CF;
+    margin-top: 3%;
+    border-radius: 15px;
+    padding: 1.5%;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 0.8s;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+}
+
+li p {
+    margin-top: 5%;
+}
+
+#pie {
+    padding: 2%;
+    text-align: center;
+    font-size: small;
+    color: #5c5c5c;
+}
+
+#btVolver {
+    text-align: center;
+    margin-top: 4%;
+}
+
+#botonera {
+    padding: 1%;
+}
+
+#botonera input {
+    padding: 1%;
+    margin: 1%;
+}
+
+.btn {
+    color: white;
+    padding: 1%;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+#borrar {
+    background-color: red;
+}
+
+#borrar:hover {
+    background-color: rgb(165, 0, 0);
+}
+
+#copi {
+    background-color: rgb(0, 197, 0);
+}
+
+#copi:hover {
+    background-color: green;
+}
